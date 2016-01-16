@@ -15,7 +15,7 @@ Import Project by Android Studio Menu > File > Import Project...
 Get your android application licence key on Google Play Developer Console.  
 Note that your application need to be paid one and be released.
 
-Set the key into `MainActivity.BASE64_PUBLIC_KEY` in LVLSample/src/main/java/com/example/android/market/licensing/MainActivity.java.
+Set the key into `MainActivity.BASE64_PUBLIC_KEY` in LVLSample/src/main/java/com/ftahmed/android/market/licensing/MainActivity.java.
 
 Run LVLSample by Android Studio Menu > Run > Run LVLSample.  
 If some issues are happened, try "Sync Project with Gradle Files" or "Rebuild Project" at Android Studio Menu

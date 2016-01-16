@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 
-//package com.example.android.market.licensing;
-package com.example.android.market.licensing;
+package com.ftahmed.android.market.licensing;
 
 import com.google.android.vending.licensing.AESObfuscator;
 import com.google.android.vending.licensing.LicenseChecker;
@@ -57,7 +56,7 @@ import android.widget.TextView;
  * licensing documentation.</a>
  */
 public class MainActivity extends Activity {
-    private static final String BASE64_PUBLIC_KEY = "REPLACE THIS WITH YOUR PUBLIC KEY";
+    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjc1OHAm6GqSs3X+gJX3PefqYQ9IUFzrbvtw+Y5qJGNFOGmkh/WpanjIiXxPbzzaQopYpKWj+bDFa6q4LOoS12h43S+T7ebW4CC3iWjWd2q43OEuQAN4wvFNG4JIefifak3jBrfvFlYC5WwKBGYMeN2aQN3dq4ILmJ49wy+69vWixTXNt2SXrQrc2sazcp1+6O718EoWYHo6rX3EiHiSy7+Kn1wpg14+hGVVYQhi2RlOzUA5dLu2exzAylzt0eG4eDNLNmQdR+E5RFz8hgOn+Tocfg/hCK/WgrkZYWQjdRuSpKRP67WT6yOnCsEZ2Ff7q4jfLqZuAk3BibpTAA31oUQIDAQAB";
 
     // Generate your own 20 random bytes, and put them here.
     private static final byte[] SALT = new byte[] {

@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.market.licensing"
+    package="com.ftahmed.android.market.licensing"
     android:versionCode="2"
     android:versionName="1.1">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
@@ -28,7 +28,9 @@
         </activity>
     </application>
     <!-- Devices >= 3 have version of Android Market that supports licensing. -->
-    <uses-sdk android:minSdkVersion="3" />
+    <uses-sdk android:minSdkVersion="17" />
     <!-- Required permission to check licensing. -->
     <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <!-- Implementing In-app Billing -->
+    <uses-permission android:name="com.android.vending.BILLING" />
 </manifest>
