@@ -15,8 +15,8 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ftahmed.android.market.licensing"
-    android:versionCode="2"
-    android:versionName="1.1">
+    android:versionCode="3"
+    android:versionName="1.2">
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".MainActivity"
             android:label="@string/app_name"
@@ -33,4 +33,5 @@
     <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
     <!-- Implementing In-app Billing -->
     <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 </manifest>

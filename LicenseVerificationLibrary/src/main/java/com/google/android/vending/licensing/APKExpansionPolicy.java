@@ -387,6 +387,7 @@ public class APKExpansionPolicy implements Policy {
                     name = item.getName() + ++i;
                 }
                 results.put(name, item.getValue());
+                Log.w(TAG, String.format("name: %s, value: %s", name, item.getValue()));
             }
         } catch (URISyntaxException e) {
             Log.w(TAG, "Invalid syntax error while decoding extras data from server.");
