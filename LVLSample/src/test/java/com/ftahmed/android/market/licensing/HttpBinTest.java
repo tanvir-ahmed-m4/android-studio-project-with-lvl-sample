@@ -1,9 +1,8 @@
 package com.ftahmed.android.market.licensing;
 
-import org.json.*;
 import org.junit.Test;
 
-import com.ftahmed.android.market.licensing.HttpBin;
+import com.google.android.vending.licensing.util.HttpBin;
 import com.loopj.android.http.*;
 
 import cz.msebera.android.httpclient.Header;

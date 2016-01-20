@@ -12,6 +12,10 @@ buildscript {
 }
 apply plugin: 'com.android.library'
 
+repositories {
+    mavenCentral()
+}
+
 android {
     compileSdkVersion 22
     buildToolsVersion '22.0.1'
@@ -20,4 +24,8 @@ android {
         minSdkVersion 17
         targetSdkVersion 17
     }
+}
+
+dependencies {
+    compile 'com.loopj.android:android-async-http:1.4.9'
 }

@@ -30,4 +30,8 @@
     <string name="buy_button">Buy app</string>
     <string name="retry_button">Retry</string>
     <string name="quit_button">Exit</string>
+    <string name="buy_product">Buy Product</string>
+    <string name="buy_subs">Buy Subscription</string>
+    <string name="buying_product">Buying product...</string>
+    <string name="buying_subscription">Buying subscription...</string>
 </resources>
